@@ -48,44 +48,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ctrlTop-Down Urban Intersection.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ctrlTop-Down Urban Intersection.Designer.cs">
-      <DependentUpon>ctrlTop-Down Urban Intersection.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ctrlTrafficLight.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ctrlTrafficLight.Designer.cs">
-      <DependentUpon>ctrlTrafficLight.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmTopDownUrbanIntersection.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmTopDownUrbanIntersection.Designer.cs">
-      <DependentUpon>FrmTopDownUrbanIntersection.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ctrlTop-Down Urban Intersection.resx">
-      <DependentUpon>ctrlTop-Down Urban Intersection.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ctrlTrafficLight.resx">
-      <DependentUpon>ctrlTrafficLight.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmTopDownUrbanIntersection.resx">
+    <Compile Include="Traffic Light Form\FrmTopDownUrbanIntersection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Traffic Light Form\FrmTopDownUrbanIntersection.Designer.cs">
       <DependentUpon>FrmTopDownUrbanIntersection.cs</DependentUpon>
-    </EmbeddedResource>
+    </Compile>
+    <Compile Include="Traffic Light User Control\ctrlTop-Down Urban Intersection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Traffic Light User Control\ctrlTop-Down Urban Intersection.Designer.cs">
+      <DependentUpon>ctrlTop-Down Urban Intersection.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -96,6 +72,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Traffic Light Form\FrmTopDownUrbanIntersection.resx">
+      <DependentUpon>FrmTopDownUrbanIntersection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Traffic Light User Control\ctrlTop-Down Urban Intersection.resx">
+      <DependentUpon>ctrlTop-Down Urban Intersection.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
